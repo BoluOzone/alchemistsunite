@@ -6,6 +6,14 @@
 //
 
 import SwiftUI
+import UIKit
+
+class ViewController: UIViewController{
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        print("J")
+    }
+}
 
 struct ContentView: View {
     var body: some View {
